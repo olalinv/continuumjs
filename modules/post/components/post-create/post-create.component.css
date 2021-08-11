@@ -1,0 +1,15 @@
+.control {
+  margin: 1rem 0;
+}
+
+.control input,
+.control select,
+.control textarea {
+  min-width: 350px;
+  padding: 0.25rem 0;
+}
+
+.control label {
+  display: block;
+  margin-bottom: 2px;
+}

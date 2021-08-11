@@ -1,0 +1,46 @@
+footer {
+  background-color: var(--light-gray-color);
+  font-size: 0.85em;
+  height: 5vh;
+  line-height: 5vh;
+  padding: 0 2rem;
+}
+
+header {
+  background-color: var(--black-color);
+  color: var(--white-color);
+  height: 10vh;
+  line-height: 10vh;
+  padding: 0 2.25rem;
+  position: sticky;
+  top: 0;
+}
+
+header a {
+  color: var(--white-color);
+  font-size: 1.15em;
+  text-decoration: none;
+}
+
+header ul {
+  margin: 0;
+  padding: 0;
+}
+
+header ul li {
+  display: inline;
+}
+
+header ul li + li {
+  margin-left: 1rem;
+}
+
+main {
+  height: 85vh;
+  overflow-y: auto;
+  padding: 0 2rem;
+}
+
+main .content-wrapper {
+  margin: 2rem 0;
+}
